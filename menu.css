@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+.main{
+	height: 100vh;
+	width: 100px;
+	background-color: #424242;
+	transition: all 0.1s linear;
+}
+.main:hover{
+	width: 300px;
+	height: 100vh;
+}
+.menu{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	float: left;
+	clear: both;
+	transition: all 0.1s linear;
+}
+.menu-text{
+	width: 100px;
+	height: 200px;
+}
+.menu-img{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 25px;
+	filter: grayscale(1);
+	transition: filter 0.1s linear;
+}
+.menu-img:hover{
+	filter: none;
+	transform: rotate(180deg);
+}
+.menu:hover{
+	width: 300px;
+	height: 100px;
+}
+.line{
+	width: 300px;
+	height: 100px;
+	float: left;
+	clear: both;
+	filter: grayscale(1);
+	transition: all 0.2s linear;
+}
+.line-img{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 25px;	
+}
+.line:hover{
+	width: 300px;
+	height: 100px;
+	background-color: #636363;
+	filter: none;
+}
+
+.line-text{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-color:orange;
+	display: none;
+	transition: display 0 linear;
+}
